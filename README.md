@@ -127,3 +127,15 @@ cat speakers_list.json | jq '.[0].이름'
 # 모든 발표자의 이름과 주제만 출력
 cat speakers_list.json | jq '.[] | {name: .이름, topic: .주제}'
 ```
+
+## 기여 방법 (Contribution Guide)
+
+이 프로젝트에 기여하고 싶으시다면, 다음 절차를 따라주세요.
+
+1.  이 리포지토리를 **Fork**합니다.
+2.  자신만의 브랜치를 생성합니다 (`git checkout -b feature/AmazingFeature`).
+3.  변경 사항을 커밋합니다 (`git commit -m 'Add some AmazingFeature'`).
+4.  브랜치에 푸시합니다 (`git push origin feature/AmazingFeature`).
+5.  **Pull Request**를 생성합니다.
+
+모든 기여를 환영합니다!
