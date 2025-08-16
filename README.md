@@ -1,4 +1,11 @@
-# NOANcon2025 발표자 목록 (`speakers_list.json`) 활용 안내
+# NOAN con 2025 in jeju
+- "NOANcon" is a 24-hour conference in Jeju where 33 NOAN citizen speakers offer a sharper, clearer perspective on the current era & AI.
+- 데놀이 맥주라면 노안은 소주, 막걸리
+- AI 시대 노안 개발자의 생존기
+
+## 발표자 목록 (`speakers_list.json`) 활용 및 수정 안내
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/615db7b2-c675-45cd-90e0-84ab3fe9a9ad" />
 
 이 문서는 `speakers_list.json` 파일의 구조를 설명하고, 다양한 프로그래밍 환경에서 이 파일을 읽고 활용하는 방법에 대한 예제 코드를 제공합니다.
 
