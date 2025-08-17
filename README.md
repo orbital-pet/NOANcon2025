@@ -3,6 +3,10 @@
 - 데놀이 맥주라면 노안은 소주, 막걸리
 - AI 시대 노안 개발자의 생존기
 
+## 관련 링크
+- 페이스북 이벤트 : https://www.facebook.com/share/1C2vSnzNXb
+- 공식홈피 베타용 : https://orbital-pet.diginori.com/conf/noan (누구라도 본 API 등 이용해 새로 만들어 주셔도 됩니다)
+
 ## 발표자 목록 (`speakers_list.json`) 활용 및 수정 안내
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/615db7b2-c675-45cd-90e0-84ab3fe9a9ad" />
@@ -133,6 +137,47 @@ cat speakers_list.json | jq '.[0].이름'
 
 # 모든 발표자의 이름과 주제만 출력
 cat speakers_list.json | jq '.[] | {name: .이름, topic: .주제}'
+```
+
+## `speakers_list.json` 파일 유효성 검사
+
+`speakers_list.json` 파일이 올바른 JSON 형식을 따르는지 확인하는 것은 중요합니다. 형식이 잘못된 경우, 이 파일을 사용하는 애플리케이션에서 오류가 발생할 수 있습니다.
+
+### 1. `jq` 사용 (권장)
+
+`jq`는 커맨드 라인에서 JSON을 처리하는 경량하고 유연한 도구입니다. `jq`를 사용하여 파일의 유효성을 검사하는 가장 간단한 방법은 다음과 같습니다.
+
+```bash
+jq . speakers_list.json
+```
+
+*   **성공**: 파일이 유효한 JSON이라면, `jq`는 내용을 예쁘게 포맷하여 출력하고 종료 코드 0을 반환합니다.
+*   **실패**: 파일에 오류가 있다면, `jq`는 오류 메시지를 출력하고 0이 아닌 종료 코드를 반환합니다.
+
+이 방법은 `speakers_list.json`을 수정하고 난 후 간단하게 유효성을 확인할 때 유용합니다.
+
+### 2. Python 사용
+
+Python의 내장 `json` 모듈을 사용하여 유효성 검사 스크립트를 작성할 수 있습니다.
+
+```python
+import json
+
+def validate_json(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            json.load(f)
+        print(f"'{file_path}' is a valid JSON file.")
+        return True
+    except FileNotFoundError:
+        print(f"Error: '{file_path}' not found.")
+        return False
+    except json.JSONDecodeError as e:
+        print(f"Error: Invalid JSON in '{file_path}': {e}")
+        return False
+
+# speakers_list.json 파일 유효성 검사
+validate_json('speakers_list.json')
 ```
 
 ## 기여 방법 (Contribution Guide)
