@@ -20,9 +20,10 @@
 *   `이름`: 발표자의 이름 (문자열)
 *   `소속`: 발표자의 소속 (문자열, 비어 있을 수 있음)
 *   `주제`: 발표 주제 (문자열, 비어 있을 수 있음)
+*   `참조`: 발표자료 및 추가정보, PR 주소를 넣어 주세요, 공홈에서 상세보기로 연결 - (문자열, 비어 있을 수 있음)
 
 ### 예시
-
+- URL : https://raw.githubusercontent.com/orbital-pet/NOANcon2025/refs/heads/main/speakers_list.json
 ```json
 [
   {
