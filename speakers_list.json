@@ -147,25 +147,35 @@
     "이름": "김정",
     "소속": "코드스쿼드 대표",
     "주제": "소프트웨어로 하드웨어 만들기",
-    "참조": "https://github.com/orbital-pet/NOANcon2025/pull/14"
+    "참조": "https://github.com/orbital-pet/NOANcon2025/pull/14",
+    "사진": "https://letswift.kr/2024/assets/speakers/jk.jpg"
+  },
+  {
+    "이름": "서동필",
+    "소속": "제주도",
+    "주제": "우리나라 최초 AI 서빙 이후",
+    "참조": "https://github.com/orbital-pet/NOANcon2025/pull/15",
+    "사진": "https://github.com/user-attachments/assets/b57bf77c-5543-46d5-a22c-0ed35a1474ce"
   },
   {
     "이름": "윤경록",
     "소속": "취준생 in 독일",
     "주제": "오늘을 살고 있습니다",
-    "참조": "https://github.com/orbital-pet/NOANcon2025/pull/16"
+    "참조": "https://github.com/orbital-pet/NOANcon2025/pull/16",
+    "사진": "https://github.com/user-attachments/assets/7f9b782e-1a6e-457d-9497-1908e345e2f5"
   },
   {
     "이름": "임대권",
     "소속": "농부",
     "주제": "안성 강덕골에서 농사짓는 바보농장. 바보입니다.",
-    "참조": ""
+    "참조": "",
+    "사진": "https://github.com/user-attachments/assets/0c2776ba-4082-47ed-9665-645c88399ed6"
   },
   {
     "이름": "나영철",
     "소속": "(전)환경TV 대표",
-    "주제": "...",
+    "주제": "",
     "참조": "",
-    "사진": ""
+    "사진": "https://github.com/user-attachments/assets/83e71944-78d0-466c-b652-b5081f301eb2"
   }
 ]
