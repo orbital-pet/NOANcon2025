@@ -5,7 +5,19 @@
 
 ## 관련 링크
 - 페이스북 이벤트 : https://www.facebook.com/share/1C2vSnzNXb
-- 공식홈피 베타용 : https://orbital-pet.diginori.com/conf/noan (누구라도 본 API 등 이용해 새로 만들어 주셔도 됩니다)
+- 공식홈피 : https://orbital-pet.diginori.com/conf/noan (누구라도 본 API 등 이용해 새로 만들어 주셔도 됩니다)
+
+## 기여 방법 (Contribution Guide)
+
+이 프로젝트에 기여하고 싶으시다면, 다음 절차를 따라주세요.
+
+1.  이 리포지토리를 **Fork**합니다.
+2.  자신만의 브랜치를 생성합니다 (`git checkout -b feature/AmazingFeature`).
+3.  변경 사항을 커밋합니다 (`git commit -m 'Add some AmazingFeature'`).
+4.  브랜치에 푸시합니다 (`git push origin feature/AmazingFeature`).
+5.  **Pull Request**를 생성합니다.
+
+모든 기여를 환영합니다!
 
 ## 발표자 목록 (`speakers_list.json`) 활용 및 수정 안내
 
@@ -183,14 +195,4 @@ def validate_json(file_path):
 validate_json('speakers_list.json')
 ```
 
-## 기여 방법 (Contribution Guide)
 
-이 프로젝트에 기여하고 싶으시다면, 다음 절차를 따라주세요.
-
-1.  이 리포지토리를 **Fork**합니다.
-2.  자신만의 브랜치를 생성합니다 (`git checkout -b feature/AmazingFeature`).
-3.  변경 사항을 커밋합니다 (`git commit -m 'Add some AmazingFeature'`).
-4.  브랜치에 푸시합니다 (`git push origin feature/AmazingFeature`).
-5.  **Pull Request**를 생성합니다.
-
-모든 기여를 환영합니다!
